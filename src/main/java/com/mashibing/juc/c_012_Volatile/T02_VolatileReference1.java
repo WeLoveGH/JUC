@@ -7,8 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 public class T02_VolatileReference1 {
 
-    /* 解注或注释实验一下就更清晰了 */
-    /*volatile */ boolean running = true;
+    boolean running = true;
 
     volatile static T02_VolatileReference1 T = new T02_VolatileReference1();
 

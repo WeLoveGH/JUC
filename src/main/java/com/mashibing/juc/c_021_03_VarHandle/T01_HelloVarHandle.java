@@ -1,10 +1,11 @@
 package com.mashibing.juc.c_021_03_VarHandle;
 
-/*import java.lang.invoke.VarHandle;*/
+import java.lang.invoke.MethodHandles;
+import java.lang.invoke.VarHandle;
 
 public class T01_HelloVarHandle {
 
-/*    int x = 8;
+    int x = 8;
 
     private static VarHandle handle;
 
@@ -32,5 +33,5 @@ public class T01_HelloVarHandle {
         handle.getAndAdd(t, 10);
         System.out.println(t.x);
 
-    }*/
+    }
 }
